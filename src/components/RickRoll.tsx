@@ -19,7 +19,7 @@ const RickRoll = () => {
   return (
     <>
       {loading || rickroll ? (
-        <div className="w-screen h-screen bg-windows bg-cover flex flex-row items-center justify-center">
+        <div className="w-screen h-screen bg-[url('https://4kwallpapers.com/images/walls/thumbs_3t/5656.jpg')] bg-cover flex flex-row items-center justify-center">
           {loading ? (
             <>
               <ReactLoading
