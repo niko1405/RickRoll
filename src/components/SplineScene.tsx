@@ -11,16 +11,18 @@ const SplineScene = () => {
       if (e.matches) {
         // Portrait mode
         console.log("portrait");
+        setLandscape(false);
       } else {
         // Landscape
         console.log("landscape");
+        setLandscape(true);
       }
     };
-
     portrait.addEventListener("change", handleOrientation);
 
     return () => portrait.removeEventListener("change", handleOrientation);
   }, []);
+  console.log("landscape: " + landscape);
 
   return (
     <div className="w-screen h-screen bg-gray-800 flex flex-col items-center justify-center">
