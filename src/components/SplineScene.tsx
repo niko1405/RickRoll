@@ -1,5 +1,4 @@
 import Spline from "@splinetool/react-spline";
-import { useEffect, useState } from "react";
 
 const SplineScene = () => {
   //   const [landscape, setLandscape] = useState<boolean>(false);
