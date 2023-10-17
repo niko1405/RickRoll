@@ -1,6 +1,6 @@
 import Spline from "@splinetool/react-spline";
 import { useState } from "react";
-import images from "../images";
+import { images } from "../images";
 
 const SplineScene = () => {
   const [explanation, setExplanation] = useState<boolean>(true);
