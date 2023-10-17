@@ -12,7 +12,7 @@ const SplineScene = () => {
   return (
     <div className="w-screen h-screen bg-gray-800 flex flex-col items-center justify-center">
       {explanation && (
-        <>
+        <div className="w-screen h-screen bg-gray-800 flex flex-col items-center justify-center">
           <p className="font-mono text-4xl font-bold text-white mb-6">
             Controls
           </p>
@@ -31,7 +31,7 @@ const SplineScene = () => {
           >
             Got it!
           </button>
-        </>
+        </div>
       )}
       <Spline
         hidden={explanation}
